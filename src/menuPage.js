@@ -12,7 +12,7 @@ function loadMenu(){
   description.innerHTML = "Our menu rotates seasonally. Check back often for our newest dishes.";
   
   let image = document.createElement('img');
-  image.src = "../img/penguino.jpeg";
+  image.src = "img/penguino.jpeg";
   
   let items = [menuTitle, description, image]
   

@@ -15,7 +15,7 @@ let description = document.createElement('p');
 description.innerHTML = "The Arctic Cafe is an arctic-themed restaurant chain that offers sumptuous food and cool shade among the frosty icebergs of this unique eco-system. Come on down and have a try!";
 
 let image = document.createElement('img');
-image.src = "../img/boat.jpg";
+image.src = "/img/boat.jpg";
 
 let items = [restaurantTitle, description, image]
 
