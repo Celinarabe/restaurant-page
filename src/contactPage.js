@@ -1,3 +1,4 @@
+import bearImage from './img/polarbear.jpg';
 
 function loadContact(){
   let page = document.getElementById("content");
@@ -13,7 +14,7 @@ function loadContact(){
   description.innerHTML = "We are currently taking reservations for Christmas Day";
   
   let image = document.createElement('img');
-  image.src = "img/polarBear.jpg";
+  image.src = bearImage;
   
   let items = [contactTitle, description, image]
   

@@ -10,7 +10,6 @@
     "awesome-npm": "npm run say-hello && echo 'echo NPM is awesome!'",
     "bash-hello": "cd scripts && bash hello.sh",
     "js-add": "cd scripts && node add.js"
-
   },
   "repository": {
     "type": "git",
@@ -24,6 +23,7 @@
   "homepage": "https://github.com/Celinarabe/restaurant-page#readme",
   "devDependencies": {
     "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
     "webpack": "^5.21.2",
     "webpack-cli": "^4.5.0"
   }

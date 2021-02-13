@@ -1,3 +1,5 @@
+import penguinoImage from './img/penguin.jpeg';
+
 function loadMenu(){
   let page = document.getElementById("content");
 
@@ -12,7 +14,7 @@ function loadMenu(){
   description.innerHTML = "Our menu rotates seasonally. Check back often for our newest dishes.";
   
   let image = document.createElement('img');
-  image.src = "img/penguino.jpeg";
+  image.src = penguinoImage;
   
   let items = [menuTitle, description, image]
   
