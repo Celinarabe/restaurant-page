@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "say-hello": "echo 'Hello World'",
     "awesome-npm": "npm run say-hello && echo 'echo NPM is awesome!'",
-    "bash-hello": "bash hello.sh",
-    "js-add": "node add.js"
+    "bash-hello": "cd scripts && bash hello.sh",
+    "js-add": "cd scripts && node add.js"
   },
   "repository": {
     "type": "git",
