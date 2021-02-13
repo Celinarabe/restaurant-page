@@ -13,4 +13,4 @@ document.getElementById("menu-btn").addEventListener("click", loadMenu)
 
 
 
-onload();
+onload(); 
